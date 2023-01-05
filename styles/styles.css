@@ -6,11 +6,10 @@
 }
 /* Header */
 .logo {
-font-family: 'Raleway';
-    font-style: normal;
+font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -18,11 +17,10 @@ font-family: 'Raleway';
     color: #2E2F42;
 }
 .logo-web {
-    font-family: 'Raleway';
-        font-style: normal;
+    font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 24px;
+        line-height: 1.33;
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
@@ -31,19 +29,70 @@ font-family: 'Raleway';
 }
 .menu-link {
 font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+}
+.menu-link:hover,
+.menu-link:focus {
+color: #4D5AE5
 }
 .contact-mail, .contact-phone {
     font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+.contact-mail:hover,
+.contact-mail:hover:focus,
+.contact-phone:hover,
+.contact-phone:focus {
+    color: #4D5AE5
+}
+
+/* Order Service section */
+.hero-title {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        /* color: #FFFFFF; */
+}
+.modal-btn {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.9;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        cursor: pointer;
+}
+.modal-btn 
+{background: #4D5AE5;
+}
+/* Features section */
+.feature {
+font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.feature-description {
+font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
