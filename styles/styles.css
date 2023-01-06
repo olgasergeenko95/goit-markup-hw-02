@@ -125,7 +125,7 @@ body {
   background: #2e2f42;
 }
 .section-subtitle-description-color {
-  color: #e7e9fc;
+  color:#e7e9fc;
 }
 .logo-color {
   color: #f4f4fd;
@@ -143,6 +143,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+cursor: pointer;
 }
 .model-btn-nav {
   background: #f4f4fd;
