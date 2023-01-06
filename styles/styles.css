@@ -4,7 +4,41 @@
 } 
 .link {text-decoration: none;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Components */
+
+.section-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.section-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-subtitle-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 /* Header */
+
 .logo {
 font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -28,7 +62,6 @@ font-family: 'Raleway', sans-serif;
         color: #4D5AE5;
 }
 .menu-link {
-font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -40,7 +73,6 @@ font-family: 'Roboto', sans-serif;
 color: #4D5AE5
 }
 .contact-mail, .contact-phone {
-    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -49,24 +81,25 @@ color: #4D5AE5
         color: #434455;
 }
 .contact-mail:hover,
-.contact-mail:hover:focus,
+.contact-mail:focus,
 .contact-phone:hover,
 .contact-phone:focus {
     color: #4D5AE5
 }
 
 /* Order Service section */
+.hero {
+    background: #2E2F42;
+}
 .hero-title {
-    font-family: 'Roboto', sans-serif;
         font-weight: 600;
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
-        /* color: #FFFFFF; */
+        color: #FFFFFF;
 }
 .modal-btn {
-    font-family: 'Roboto', sans-serif;
         font-weight: 600;
         font-size: 16px;
         line-height: 1.9;
@@ -76,23 +109,24 @@ color: #4D5AE5
         color: #FFFFFF;
         cursor: pointer;
 }
-.modal-btn 
-{background: #4D5AE5;
+.modal-btn {
+    background: #4D5AE5;
 }
+
 /* Features section */
-.feature {
-font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+
+/* Team section */
+.team-section {
+    background: #F4F4FD;
 }
-.feature-description {
-font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+
+/* Footer */
+.footer {
+background: #2E2F42;
+}
+.section-subtitle-description-color {
+color: #E7E9FC;  
+}
+.logo-color {
+    color: #F4F4FD;
 }
