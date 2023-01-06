@@ -9,6 +9,7 @@ body {
 }
 
 
+
 /* Components */
 
 .section-title {
@@ -36,6 +37,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 
 /* Header */
 
@@ -130,3 +132,25 @@ color: #E7E9FC;
 .logo-color {
     color: #F4F4FD;
 }
+
+/* Portfolio */
+/* Filters */
+
+.model-btn-nav {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+}
+.model-btn-nav {
+    background: #F4F4FD;
+}
+ .model-btn-nav:hover,
+ .model-btn-nav:focus {
+    background: #4D5AE5;
+   color:#FFFFFF; 
+ }
