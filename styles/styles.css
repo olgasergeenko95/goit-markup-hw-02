@@ -4,6 +4,7 @@
   --accent-color: #4d5ae5;
   --primary-text-color: #2f2e42;
   --secondary-text-color: #434455;
+  --hero-title-text-color: #ffffff;
   --oder-section-background: #2e2f42;
   --team-section-background: #f4f4fd;
   --footer-section-background: #2e2f42;
@@ -102,7 +103,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--hero-title-text-color);
 }
 .modal-btn {
   font-weight: 600;
