@@ -1,3 +1,10 @@
+:root {
+  --primary-fons: 'Roboto', sans-serif;
+  --secondary-fons: 'Raleway',bsans-serif;
+  --accent-color: #4d5ae5;
+
+}
+
 .list {
   list-style: none;
 }
@@ -5,7 +12,8 @@
   text-decoration: none;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-fons)
+  color: #2e2f42;
 }
 
 /* Components */
@@ -39,27 +47,20 @@ body {
 /* Header */
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--secondary-fons)
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
+  display:flex;
+  align-items:center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color:#2e2f42;
 }
-.logo-web {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.logo-color-web {
   color: #4d5ae5;
 }
+
 .menu-link {
   font-weight: 600;
   font-size: 16px;
@@ -69,7 +70,7 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: #4d5ae5;
+  color: var(--accent-color);
 }
 .contact-mail,
 .contact-phone {
@@ -131,7 +132,8 @@ body {
   color: #f4f4fd;
 }
 
-/* Portfolio */
+/* --------------Portfolio----------------- */
+
 /* Filters */
 
 .model-btn-nav {
