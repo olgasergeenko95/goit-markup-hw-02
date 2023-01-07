@@ -1,8 +1,12 @@
 :root {
   --primary-fons: 'Roboto', sans-serif;
-  --secondary-fons: 'Raleway',bsans-serif;
+  --secondary-fons: 'Raleway', sans-serif;
   --accent-color: #4d5ae5;
-
+  --primary-text-color: #2f2e42;
+  --secondary-text-color: #434455;
+  --oder-section-background: #2e2f42;
+  --team-section-background: #f4f4fd;
+  --footer-section-background: #2e2f42;
 }
 
 .list {
@@ -12,42 +16,13 @@
   text-decoration: none;
 }
 body {
-  font-family: var(--primary-fons)
-  color: #2e2f42;
+  font-family: var(--primary-fons);
+  color: var(--primary-text-color);
 }
 
 /* Components */
-
-.section-title {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.section-subtitle {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.section-subtitle-description {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/* Header */
-
 .logo {
-  font-family: var(--secondary-fons)
+  font-family: var(--secondary-fons);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -61,12 +36,39 @@ body {
   color: #4d5ae5;
 }
 
+.section-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color:var(--primary-text-color);
+}
+
+.section-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.section-subtitle-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+/* Header */
+
 .menu-link {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -75,22 +77,21 @@ body {
 .contact-mail,
 .contact-phone {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color:var(--secondary-text-color);
 }
 .contact-mail:hover,
 .contact-mail:focus,
 .contact-phone:hover,
 .contact-phone:focus {
-  color: #4d5ae5;
+  color: var(--accent-color);
 }
 
 /* Order Service section */
 .hero {
-  background: #2e2f42;
+  background: var(--oder-section-background);
 }
 .hero-title {
   font-weight: 600;
@@ -111,19 +112,19 @@ body {
   cursor: pointer;
 }
 .modal-btn {
-  background: #4d5ae5;
+  background: var(--accent-color);
 }
 
 /* Features section */
 
 /* Team section */
 .team-section {
-  background: #f4f4fd;
+  background: var(--team-section-background);
 }
 
 /* Footer */
 .footer {
-  background: #2e2f42;
+  background: var(--footer-section-background);
 }
 .section-subtitle-description-color {
   color: #e7e9fc;
@@ -144,7 +145,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--accent-color);
   cursor: pointer;
 }
 .model-btn-nav {
@@ -152,7 +153,7 @@ body {
 }
 .model-btn-nav:hover,
 .model-btn-nav:focus {
-  background: #4d5ae5;
+  background: var(--accent-color);
   color: #ffffff;
 }
 
