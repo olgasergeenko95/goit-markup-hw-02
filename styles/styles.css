@@ -11,6 +11,7 @@
   --logo-color-web: #4d5ae5;
   --logo-color-studio-header: #2e2f42;
   --logo-color-studio-footer: #f4f4fd;
+  --background: #ffffff;
 }
 
 .list {
@@ -21,7 +22,9 @@
 }
 body {
   font-family: var(--primary-fons);
+  font-size: 16px;
   color: var(--primary-text-color);
+  background: var(--background);
 }
 
 /* Components */
@@ -41,7 +44,6 @@ body {
 }
 
 .section-title {
-  font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -51,15 +53,14 @@ body {
 }
 
 .section-subtitle {
-  font-weight: 600;
+  font-weight: 5000;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
-.section-subtitle-description {
-  font-size: 16px;
+.section-description {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
@@ -68,8 +69,7 @@ body {
 /* Header */
 
 .menu-link {
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -78,19 +78,15 @@ body {
 .menu-link:focus {
   color: var(--accent-color);
 }
-.contact-mail,
-.contact-phone {
+.contact-link {
   font-style: normal;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:var(--secondary-text-color);
 }
-.contact-mail:hover,
-.contact-mail:focus,
-.contact-phone:hover,
-.contact-phone:focus {
-  color: var(--accent-color);
+.contact-link:hover,
+.contact-link:focus {
+color: var(--accent-color);
 }
 
 /* Order Service section */
@@ -98,7 +94,6 @@ body {
   background: var(--oder-section-background);
 }
 .hero-title {
-  font-weight: 600;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -106,7 +101,7 @@ body {
   color: var(--hero-title-text-color);
 }
 .modal-btn {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   display: flex;
@@ -130,7 +125,7 @@ body {
 .footer {
   background: var(--footer-section-background);
 }
-.section-subtitle-description-color {
+.section-description-color {
   color: #e7e9fc;
 }
 .logo-color {
@@ -161,9 +156,3 @@ body {
   color: #ffffff;
 }
 
-  .img-description {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  /* color: #f4f4fd; */
-}
