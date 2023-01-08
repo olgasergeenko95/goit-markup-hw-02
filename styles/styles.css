@@ -5,6 +5,7 @@
   --primary-text-color: #2f2e42;
   --secondary-text-color: #434455;
   --hero-title-text-color: #ffffff;
+  --modal-btn-text-color: #ffffff;
   --oder-section-background: #2e2f42;
   --team-section-background: #f4f4fd;
   --footer-section-background: #2e2f42;
@@ -106,7 +107,7 @@ color: var(--accent-color);
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--modal-btn-text-color);
   cursor: pointer;
 }
 .modal-btn {
